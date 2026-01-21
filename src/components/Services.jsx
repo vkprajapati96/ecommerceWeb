@@ -3,84 +3,84 @@ import { ShoppingCart, Truck, Shield, MessageSquare, Star, Package } from 'lucid
 export default function Services() {
   const services = [
     {
-      icon: <ShoppingCart className="w-12 h-12 text-blue-600" />,
+      // icon: <ShoppingCart className="w-12 h-12 text-blue-600" />,
       bgColor: "from-blue-50 to-blue-100 border-blue-200",
       title: "Store Management",
       description: "Easy-to-use dashboard to manage products, inventory, and orders in real-time.",
       features: ["Unlimited Products", "Stock Management", "Order Tracking"]
     },
     {
-      icon: <Truck className="w-12 h-12 text-green-600" />,
+      // icon: <Truck className="w-12 h-12 text-green-600" />,
       bgColor: "from-green-50 to-green-100 border-green-200",
       title: "Logistics & Shipping",
       description: "Integrated shipping with major courier partners and real-time tracking.",
       features: ["Multi-courier Integration", "Real-time Tracking", "Auto Label Generation"]
     },
     {
-      icon: <Shield className="w-12 h-12 text-purple-600" />,
+      // icon: <Shield className="w-12 h-12 text-purple-600" />,
       bgColor: "from-purple-50 to-purple-100 border-purple-200",
       title: "Secure Payments",
       description: "Multiple payment gateways with bank-level security and fraud protection.",
       features: ["Credit/Debit Cards", "UPI & Wallets", "Zero Setup Fee"]
     },
     {
-      icon: <MessageSquare className="w-12 h-12 text-yellow-600" />,
+      // icon: <MessageSquare className="w-12 h-12 text-yellow-600" />,
       bgColor: "from-yellow-50 to-yellow-100 border-yellow-200",
       title: "Customer Support",
       description: "24/7 dedicated support team via chat, email, and phone for your peace of mind.",
       features: ["24/7 Availability", "Multi-channel Support", "Hindi Support"]
     },
     {
-      icon: <Star className="w-12 h-12 text-red-600" />,
+      // icon: <Star className="w-12 h-12 text-red-600" />,
       bgColor: "from-red-50 to-red-100 border-red-200",
       title: "Marketing Tools",
       description: "Built-in marketing features to increase visibility and boost your sales.",
       features: ["Email Campaigns", "Discount & Coupons", "Social Sharing"]
     },
     {
-      icon: <Package className="w-12 h-12 text-indigo-600" />,
+      // icon: <Package className="w-12 h-12 text-indigo-600" />,
       bgColor: "from-indigo-50 to-indigo-100 border-indigo-200",
       title: "Analytics & Reports",
       description: "Detailed insights into sales, revenue, and customer behavior patterns.",
       features: ["Sales Dashboard", "Revenue Reports", "Customer Analytics"]
     },
     {
-      icon: <span className="text-4xl">🎨</span>,
+      // icon: <span className="text-4xl">🎨</span>,
       bgColor: "from-cyan-50 to-cyan-100 border-cyan-200",
       title: "Website Builder",
       description: "Drag-and-drop website builder with professional templates - no coding required.",
       features: ["Mobile Responsive", "SEO Optimized", "Custom Domain"]
     },
     {
-      icon: <span className="text-4xl">📱</span>,
+      // icon: <span className="text-4xl">📱</span>,
       bgColor: "from-pink-50 to-pink-100 border-pink-200",
       title: "Mobile App",
       description: "Sell on-the-go with our mobile app for iOS and Android devices.",
       features: ["Order Management", "Push Notifications", "Offline Mode"]
     },
     {
-      icon: <span className="text-4xl">🏪</span>,
+      // icon: <span className="text-4xl">🏪</span>,
       bgColor: "from-orange-50 to-orange-100 border-orange-200",
       title: "Multi-Channel Selling",
       description: "Sell across multiple platforms - Facebook, Instagram, WhatsApp from one dashboard.",
       features: ["Social Commerce", "Marketplace Integration", "Sync Inventory"]
     },
     {
-      icon: <span className="text-4xl">💳</span>,
+      // icon: <span className="text-4xl">💳</span>,
       bgColor: "from-teal-50 to-teal-100 border-teal-200",
       title: "Subscription Management",
       description: "Manage subscription-based products and recurring billing effortlessly.",
       features: ["Auto Renewal", "Flexible Billing", "Customer Retention"]
     },
     {
-      icon: <span className="text-4xl">🛡️</span>,
+      // icon: <span className="text-4xl">🛡️</span>,
       bgColor: "from-lime-50 to-lime-100 border-lime-200",
       title: "Fraud Protection",
       description: "Advanced AI-powered fraud detection to protect your business and customers.",
       features: ["AI Detection", "Chargeback Protection", "Secure Transactions"]
     },
     {
-      icon: <span className="text-4xl">✨</span>,
+      // icon: <span className="text-4xl">✨</span>,
       bgColor: "from-violet-50 to-violet-100 border-violet-200",
       title: "Advanced Inventory",
       description: "Smart inventory management with low stock alerts and automated reordering.",
@@ -106,9 +106,9 @@ export default function Services() {
               key={index} 
               className={`bg-gradient-to-br ${service.bgColor} p-6 md:p-8 rounded-xl border-2 hover:shadow-2xl hover:scale-105 transition duration-300 cursor-pointer`}
             >
-              <div className="mb-4">
+              {/* <div className="mb-4">
                 {service.icon}
-              </div>
+              </div> */}
               <h3 className="text-xl md:text-2xl font-bold mb-3 text-gray-900">
                 {service.title}
               </h3>

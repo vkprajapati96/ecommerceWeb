@@ -94,13 +94,13 @@ export default function FAQ() {
         </div>
 
         {/* CTA Box */}
-        <div className="mt-12 bg-gradient-to-r from-blue-600 to-indigo-600 text-white p-8 md:p-10 rounded-xl text-center space-y-4">
+        {/* <div className="mt-12 bg-gradient-to-r from-blue-600 to-indigo-600 text-white p-8 md:p-10 rounded-xl text-center space-y-4">
           <h3 className="text-2xl md:text-3xl font-bold">Still have questions?</h3>
           <p className="text-blue-100 text-base md:text-lg">Contact our support team - we're here to help 24/7!</p>
           <button className="bg-white text-blue-600 px-8 py-3 rounded-lg font-bold hover:bg-gray-100 transition">
             Chat with us
           </button>
-        </div>
+        </div> */}
       </div>
     </section>
   );

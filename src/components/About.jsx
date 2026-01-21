@@ -1,4 +1,5 @@
 import { Package, Shield, Truck, Star } from 'lucide-react';
+import about from "../images/about.jpg"
 
 export default function About() {
   return (
@@ -13,11 +14,11 @@ export default function About() {
         </div>
 
         {/* Content Grid */}
-        <div className="grid md:grid-cols-2 gap-12 lg:gap-16 items-center">
+        <div className="grid md:grid-cols-2 gap-12 lg:gap-16 items-center ">
           {/* Left - Image */}
-          <div className="flex justify-center">
-            <div className="bg-gradient-to-br from-blue-100 to-blue-200 w-full max-w-sm h-64 rounded-2xl flex items-center justify-center shadow-lg">
-              <Package className="w-32 h-32 text-blue-600" />
+          <div className=" w-full h-full rounded-lg ">
+            <div className="  bg-gradient-to-br rounded-lg from-blue-100 to-blue-200 w-full rounded-2xl flex items-center justify-center shadow-lg">
+              <img className='w-full h-full ' src={about} alt="" />
             </div>
           </div>
 
