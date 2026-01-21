@@ -106,9 +106,11 @@ export default function Services() {
               key={index} 
               className={`bg-gradient-to-br ${service.bgColor} p-6 md:p-8 rounded-xl border-2 hover:shadow-2xl hover:scale-105 transition duration-300 cursor-pointer`}
             >
+              
               {/* <div className="mb-4">
                 {service.icon}
               </div> */}
+
               <h3 className="text-xl md:text-2xl font-bold mb-3 text-gray-900">
                 {service.title}
               </h3>
