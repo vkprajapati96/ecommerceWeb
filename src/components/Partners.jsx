@@ -1,5 +1,5 @@
 import { FaAmazon, FaShoppingCart } from 'react-icons/fa';
-import { SiFlipkart} from 'react-icons/si';
+import { SiFlipkart } from 'react-icons/si';
 
 export default function Partners() {
   const partners = [
@@ -27,7 +27,6 @@ export default function Partners() {
       iconColor: "text-pink-600",
       hoverColor: "hover:bg-pink-200"
     },
-    
   ];
 
   return (
@@ -35,18 +34,20 @@ export default function Partners() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Heading */}
         <div className="text-center mb-16 space-y-4">
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-900">Our Partners</h2>
+          <h2 className="text-4xl md:text-5xl font-bold text-gray-900">
+            Our Partners
+          </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
             Trusted by India's leading ecommerce platforms and payment gateways
           </p>
         </div>
 
-        {/* Partners Grid - Square Cards */}
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4 md:gap-6">
+        {/* Partners Cards Center */}
+        <div className="flex justify-center gap-6 flex-wrap">
           {partners.map((partner, index) => (
             <div
               key={index}
-              className={`bg-gradient-to-br ${partner.bgColor} border-2 ${partner.borderColor} rounded-xl p-6 ${partner.hoverColor} hover:shadow-lg hover:scale-110 transition duration-300 cursor-pointer flex flex-col items-center justify-center gap-3 aspect-square`}
+              className={`bg-gradient-to-br ${partner.bgColor} border-2 ${partner.borderColor} rounded-xl p-6 ${partner.hoverColor} hover:shadow-lg hover:scale-110 transition duration-300 cursor-pointer flex flex-col items-center justify-center gap-3 aspect-square w-32`}
             >
               <div className={`${partner.iconColor}`}>
                 {partner.icon}
@@ -58,12 +59,6 @@ export default function Partners() {
           ))}
         </div>
 
-        {/* Benefits Section */}
-    
-        {/* Statistics */}
-       
-        {/* CTA */}
-       
       </div>
     </section>
   );
