@@ -47,12 +47,12 @@ export default function Partners() {
           {partners.map((partner, index) => (
             <div
               key={index}
-              className={`bg-gradient-to-br ${partner.bgColor} border-2 ${partner.borderColor} rounded-xl p-6 ${partner.hoverColor} hover:shadow-lg hover:scale-110 transition duration-300 cursor-pointer flex flex-col items-center justify-center gap-3 aspect-square w-32`}
+              className={`bg-gradient-to-br ${partner.bgColor} border-2 ${partner.borderColor} rounded-xl p-6 ${partner.hoverColor} hover:shadow-lg hover:scale-110 transition duration-300 cursor-pointer flex flex-col items-center justify-center gap-3 aspect-square w-40`}
             >
               <div className={`${partner.iconColor}`}>
                 {partner.icon}
               </div>
-              <h3 className="text-gray-900 font-semibold text-xs text-center leading-tight">
+              <h3 className="text-gray-900 font-semibold text-sm text-center leading-tight">
                 {partner.name}
               </h3>
             </div>
